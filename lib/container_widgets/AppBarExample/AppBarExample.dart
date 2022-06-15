@@ -7,7 +7,7 @@ class AppBarExample extends StatefulWidget {
 
 class _AppBarExampleState extends State<AppBarExample> with SingleTickerProviderStateMixin{
 
-  TabController _tabController;
+  late TabController _tabController;
 
   @override
   void initState() {
